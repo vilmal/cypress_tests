@@ -1,0 +1,26 @@
+{
+  "name": "cypress_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:open:local": "dotenv -e .env.local -- cypress open",
+    "cy:run:local": "dotenv -e .env.local -- cypress run",
+    "cy:open:dev": "dotenv -e .env.dev -- cypress open",
+    "cy:run:dev": "dotenv -e .env.dev -- cypress run",
+    "cy:open:staging": "dotenv -e .env.staging -- cypress open",
+    "cy:run:staging": "dotenv -e .env.staging -- cypress run",
+    "cy:open:prod": "dotenv -e .env.prod -- cypress open",
+    "cy:run:prod": "dotenv -e .env.prod -- cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.5.4",
+    "dotenv-cli": "^7.4.1"
+  }
+}

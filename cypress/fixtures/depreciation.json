@@ -1,0 +1,7 @@
+{
+  "singleContractIdCase": {
+      "name": "Single bike EVL selection",
+      "input": {"contractId": 123123},
+      "expected": {"expectedTitle": "Ghost E Teru", "expectedTotal": "2.568,32"}
+  }
+}
